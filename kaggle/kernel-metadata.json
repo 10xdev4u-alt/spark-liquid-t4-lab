@@ -1,7 +1,7 @@
 {
-  "id": "jprinceraj/r6-ollama-gguf-on-2xt4",
-  "title": "R6 Ollama GGUF on 2xT4",
-  "code_file": "run_ollama.py",
+  "id": "jprinceraj/r7-mtp-32k-ollama-t4",
+  "title": "R7 MTP 32K Ollama on 2xT4",
+  "code_file": "run_mtp.py",
   "kernel_type": "script",
   "enable_gpu": true,
   "enable_internet": true,

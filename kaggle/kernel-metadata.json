@@ -6,5 +6,6 @@
   "enable_gpu": true,
   "enable_internet": true,
   "enable_tpu": false,
-  "machine_shape": "NvidiaTeslaT4"
+  "machine_shape": "NvidiaTeslaT4",
+  "language": "python"
 }

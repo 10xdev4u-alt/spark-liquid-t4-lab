@@ -28,7 +28,7 @@ def select_topk(tok, model, dev, full_ids, sink=128, window=512, n_chunks=64, ke
     emb = model.get_input_embeddings()
     with torch.no_grad():
         mid_emb = emb(mid.unsqueeze(0).to(dev))[0]          # [M, H]
-        q = emb(ids[-1:].unsqueeze(0).to(dev))[0]          # [H]
+        q = emb(ids[-1:].unsqueeze(0).to(dev))[0, 0]      # [H]
     mid_emb = torch.nn.functional.normalize(mid_emb.float(), dim=-1)
     q = torch.nn.functional.normalize(q.float(), dim=-1)
     chunk = max(1, mid_emb.shape[0] // n_chunks)

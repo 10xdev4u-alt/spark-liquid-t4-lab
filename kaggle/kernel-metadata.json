@@ -1,5 +1,5 @@
 {
-  "id": "jprinceraj/r6-ollama-gguf-t4",
+  "id": "jprinceraj/r6-ollama-gguf-on-2xt4",
   "title": "R6 Ollama GGUF on 2xT4",
   "code_file": "run_ollama.py",
   "kernel_type": "script",

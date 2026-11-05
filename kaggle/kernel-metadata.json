@@ -1,7 +1,7 @@
 {
-  "id": "jprinceraj/round3-sdpa-vs-sparse-t4",
-  "title": "Round3 SDPA vs sparse on 2xT4",
-  "code_file": "run_round3.py",
+  "id": "jprinceraj/r4-crazy-spark-eager-int4-kv",
+  "title": "R4 crazy Spark eager int4 KV on 2xT4",
+  "code_file": "run_round4.py",
   "kernel_type": "script",
   "enable_gpu": true,
   "enable_internet": true,

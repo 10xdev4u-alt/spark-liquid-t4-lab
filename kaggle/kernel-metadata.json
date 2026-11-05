@@ -1,7 +1,7 @@
 {
-  "id": "jprinceraj/spark-vs-liquid-sparse-attention-on-2xt4",
-  "title": "Spark vs Liquid sparse attention on 2xT4",
-  "code_file": "run_sparse.py",
+  "id": "jprinceraj/round3-sdpa-vs-sparse-t4",
+  "title": "Round3 SDPA vs sparse on 2xT4",
+  "code_file": "run_round3.py",
   "kernel_type": "script",
   "enable_gpu": true,
   "enable_internet": true,

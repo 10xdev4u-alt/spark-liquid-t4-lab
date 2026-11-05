@@ -1,0 +1,35 @@
+[{"stream_name":"stdout","time":0.913635485,"data":"=== install ollama ===\n"}
+,{"stream_name":"stdout","time":0.91369364,"data":"$ which ollama || curl -fsSL https://ollama.com/install.sh | sh\n"}
+,{"stream_name":"stdout","time":2.250856651,"data":"ERROR: This version requires zstd for extraction. Please install zstd and try again:\n"}
+,{"stream_name":"stdout","time":2.250886059,"data":"  - Debian/Ubuntu: sudo apt-get install zstd\n"}
+,{"stream_name":"stdout","time":2.250892367,"data":"  - RHEL/CentOS/Fedora: sudo dnf install zstd\n"}
+,{"stream_name":"stdout","time":2.250896855,"data":"  - Arch: sudo pacman -S zstd\n"}
+,{"stream_name":"stdout","time":2.250901415,"data":"\n"}
+,{"stream_name":"stdout","time":2.2509057009999998,"data":"STDERR: \u003e\u003e\u003e Installing ollama to /usr/local\n"}
+,{"stream_name":"stdout","time":2.2509106709999998,"data":"\n"}
+,{"stream_name":"stdout","time":2.250914844,"data":"ollama check rc 1\n"}
+,{"stream_name":"stdout","time":2.2509224039999998,"data":"=== start ollama serve ===\n"}
+,{"stream_name":"stderr","time":2.262304689,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":2.264255569,"data":"  File \"/kaggle/src/script.py\", line 33, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":2.2642708750000002,"data":"    serve = subprocess.Popen([\"ollama\", \"serve\"], env=env,\n"}
+,{"stream_name":"stderr","time":2.264276694,"data":"                             stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)\n"}
+,{"stream_name":"stderr","time":2.264281541,"data":"  File \"/usr/lib/python3.13/subprocess.py\", line 1040, in __init__\n"}
+,{"stream_name":"stderr","time":2.264288105,"data":"    self._execute_child(args, executable, preexec_fn, close_fds,\n"}
+,{"stream_name":"stderr","time":2.2642960690000002,"data":"    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":2.2642992,"data":"                        pass_fds, cwd, env,\n"}
+,{"stream_name":"stderr","time":2.264302288,"data":"                        ^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":2.264305399,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stderr","time":2.264308606,"data":"                        gid, gids, uid, umask,\n"}
+,{"stream_name":"stderr","time":2.264311684,"data":"                        ^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":2.264329264,"data":"                        start_new_session, process_group)\n"}
+,{"stream_name":"stderr","time":2.264334513,"data":"                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":2.264339316,"data":"  File \"/usr/lib/python3.13/subprocess.py\", line 1992, in _execute_child\n"}
+,{"stream_name":"stderr","time":2.264344854,"data":"    raise child_exception_type(errno_num, err_msg, err_filename)\n"}
+,{"stream_name":"stderr","time":2.2643498810000002,"data":"FileNotFoundError: [Errno 2] No such file or directory: 'ollama'\n"}
+,{"stream_name":"stderr","time":4.791060754,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4.7911044149999995,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5.188000577,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5.188021753,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7.009393272,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":8.111423338,"data":"[NbConvertApp] Writing 291478 bytes to __results__.html\n"}
+]

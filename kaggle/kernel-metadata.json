@@ -1,5 +1,5 @@
 {
-  "id": "jprinceraj/sparse-attn-spark-vs-liquid-t4",
+  "id": "jprinceraj/spark-vs-liquid-sparse-attention-on-2xt4",
   "title": "Spark vs Liquid sparse attention on 2xT4",
   "code_file": "run_sparse.py",
   "kernel_type": "script",

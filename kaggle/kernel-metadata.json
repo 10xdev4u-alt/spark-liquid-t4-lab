@@ -1,5 +1,5 @@
 {
-  "id": "jprinceraj/spark-vs-liquid-t4",
+  "id": "jprinceraj/spark-x2-6-4b-vs-lfm3-1-7b-on-2xt4",
   "title": "Spark-X2.6-4B vs LFM3-1.7B on 2xT4",
   "code_file": "run_bench.py",
   "kernel_type": "script",
